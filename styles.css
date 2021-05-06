@@ -1,0 +1,467 @@
+html{
+    scroll-behavior: smooth;
+} 
+
+#main:hover
+{
+    color: white!important;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fullbg
+{
+    background-image: url("https://techtalentshub.com/wp-content/uploads/2020/10/bubble-animated-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a
+{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p
+{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+
+}
+
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url(background1.jpg);
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 100% 77% , 50% 100% , 0 75% , 0 0);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header::before
+{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right,black 0% ,black 0% ,black 100% ) ;
+}
+
+h1{
+    color: white;
+}
+p{
+    color:;
+    font-size: 145%;
+}
+
+.navbar::before
+{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right,black 0% ,black 0% ,black 100% ) ;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: bold;
+
+}
+
+.header-section
+{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.header-buttons a
+{
+    
+    border:solid white;
+    border-radius: 50px;
+    margin: 0 5x;
+    padding: 12px 35px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    
+    
+}
+
+.header-buttons a:hover
+{
+    color: #50d1c0;
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+}
+
+.header-extradiv
+{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+    
+    background-image: url("https://techtalentshub.com/wp-content/uploads/2020/10/bubble-animated-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+.header-extradiv p{
+    font-size: 250%;
+    color: white;
+}
+
+
+.extra-div h2{
+    font-size: 1.5rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.0;
+    word-spacing: 4px;
+    padding: 14px;
+    color:white;
+}
+
+.extra-div p{
+    font-size: 0.9rem;
+}
+
+.extra-div
+{
+   
+    
+    transition: 0.3s;
+    
+    color: black;
+    
+}
+
+.extra-div:hover
+{
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.6);
+    transform: translateY(-20px);
+}
+
+/* #X
+{
+    background-color: azure;
+    padding: 20px;
+} */
+
+#Z
+{
+    font-size: 500%;
+    
+}
+
+.skills
+{
+
+    background-image: url("https://techtalentshub.com/wp-content/uploads/2020/10/bubble-animated-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+
+}
+.heading h2, .AboutMe{
+    color:white;
+    text-align: center;
+    
+}
+
+.names
+{
+    color: white;
+}
+
+.myRole
+{
+    color: white;
+    font-size: 135%;
+}
+
+.myRole2
+{
+    font-size: 100%;
+    color: white;
+}
+
+.move
+{
+    padding-top: 20px;
+}
+
+.fix
+{
+    padding: 0 50px;;
+}
+
+.service-icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text
+{
+    color: black;
+}
+
+
+
+
+.pricing
+{
+    width: 100%;
+    height: 100vh;
+    padding: 2px;
+    position: relative;
+
+}
+
+.pricing::before
+{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    
+    
+    z-index: -1;
+    background-image: url("https://techtalentshub.com/wp-content/uploads/2020/10/bubble-animated-background.svg");
+}
+
+.card
+{
+    transition: 0.4s ease;
+    border-radius: 30px!important;
+    background: transparent!important;
+    border-color: white!important;
+}
+
+.card:hover
+{
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.6);
+    transform: translateY(-20px);
+}
+
+.card-footer
+{
+    padding: 30px 0px!important;
+   
+    border-radius: 25px!important;
+    
+}
+
+.card-body
+{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color:white!important;
+    
+} 
+
+.card a
+{
+    
+    border:solid black;
+    border-radius: 50px;
+    margin: 0 5x;
+    padding: 12px 35px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    
+    
+}
+
+.card a:hover
+{
+    color: black;
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+.card-header
+{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 30px 0px!important;
+    background-color: white;
+    color: white!important;
+}
+
+.contactus
+{
+    width: 100%;
+    height: 100vh;
+    
+   position: relative;
+}
+
+.contactus::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://techtalentshub.com/wp-content/uploads/2020/10/bubble-animated-background.svg");
+    z-index: -1;
+}
+
+.form-button button{
+    
+    border: solid white;
+    border-radius: 50px;
+    margin: 0 5x;
+    padding: 12px 35px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+   background-color: white;
+
+}
+
+.form-button button:hover{
+    background:white;
+    color: black;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+
+::placeholder{
+    font-size: 0.85rem;
+}
+
+.footersection
+{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-SCq0yGqrmgVR6-TyA_CvE_ib7JiNS-VwQ&usqp=CAU");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.footersection p{
+    color: #fff;
+}
+
+h3
+{
+    font-size: 150%!important;
+}
+
+p{
+    font-size: 100%!important;
+}
+
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    
+}
+
+.footerdiv a{
+    text-decoration: none!important;
+    color:black
+}
+
+.footerdiv a:hover{
+    color:black;
+}
+
+
+@media(max-width: 760px)
+{
+    .nav-item{
+        text-align: center!important ;
+    }
+
+    .pricing, .contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .card-second
+    {
+        transform: translateY(0);
+        margin: 30px 0;
+    }
+
+    
+}
